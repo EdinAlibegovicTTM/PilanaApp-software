@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "framework": "nextjs",
-  "buildCommand": "npm install && npm run build",
-  "installCommand": "npm install",
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "github": {
-    "silent": true
+  "buildCommand": "npm install --legacy-peer-deps && npm run build",
+  "installCommand": "npm install --legacy-peer-deps"
 }
